@@ -2,7 +2,7 @@ FROM python:3.8
 
 RUN apt-get update
 
-ARG WORKSPACE=workspace
+ARG WORKSPACE=/workspace
 COPY . ${WORKSPACE}
 WORKDIR ${WORKSPACE}
 
