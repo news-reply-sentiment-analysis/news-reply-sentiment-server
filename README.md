@@ -16,3 +16,8 @@ j2kb ponycon project
 ```shell
 pipenv lock -r > requirements.txt
 ```
+
+## TODO
+
+- [ ] implement `nginx.conf`
+- [ ] implement `settings.py`
