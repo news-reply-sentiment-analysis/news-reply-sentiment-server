@@ -21,3 +21,6 @@ pipenv lock -r > requirements.txt
 
 - [ ] implement `nginx.conf`
 - [ ] implement `settings.py`
+- [ ] need to choose which DB
+  - [ ] postgresql installed on local
+  - [ ] postgresql on AWS
